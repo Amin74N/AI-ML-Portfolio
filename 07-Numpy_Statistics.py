@@ -1,0 +1,37 @@
+import numpy as np
+#--------------------------------
+a = np.array([[1,2,3],[4,5,6]])
+print ("Array a:")
+print(a)
+print ("------------------------------")
+#Get the mean:
+b = np.mean(a)
+print("Mean of a = ", b)
+b = np.mean(a, axis=0)
+print("Mean of a (axis = 0)= ", b)
+b = np.mean(a, axis=1)
+print("Mean of a (axis = 1)= ", b)
+print ("------------------------------")
+#Get the minimum:
+c = np.min(a)
+print("Min of a = ", c)
+c = np.min(a, axis=0)
+print("Min of a (axis = 0)= ", c)
+c = np.min(a, axis=1)
+print("Min of a (axis = 1)= ", c)
+print ("------------------------------")
+#Get the maximum:
+d = np.max(a)
+print("Max of a = ", d)
+d = np.max(a, axis=0)
+print("Max of a (axis = 0)= ", d)
+d = np.max(a, axis=1)
+print("Max of a (axis = 1)= ", d)
+print ("------------------------------")
+#Get the sum:
+e = np.sum(a)
+print("Sum of a = ", e)
+e = np.sum(a, axis=0)
+print("Sum of a (axis = 0)= ", e)
+e = np.sum(a, axis=1)
+print("Sum of a (axis = 1)= ", e)
