@@ -1,0 +1,17 @@
+import pandas as pd
+df = pd.read_csv('pokemon_data.csv')
+#------------------------------------------------------------------------------------
+print ("Grouping data by \"Type 1\" value:")
+print (df.groupby('Type 1').first())
+print ("-----------------------------------------------------------------------------")
+print ("Finding the average of each column grouped by \"Type 1\" value:")
+print (df.groupby('Type 1').mean(numeric_only=True))
+print ("-----------------------------------------------------------------------------")
+print ("Finding the average of each column grouped by \"Type 1\" value & sorted by \"Defense\" value:")
+print (df.groupby('Type 1').mean(numeric_only=True).sort_values('Defense', ascending=False))
+print ("-----------------------------------------------------------------------------")
+print ("GFinding the number of elements in each section grouped by \"Type 1\" value")
+print (df.groupby('Type 1').count()['#'])
+print ("-----------------------------------------------------------------------------")
+print ("GFinding the number of elements in each section grouped by \"Type 1\" & \"Type 2\" values :")
+print (df.groupby(['Type 1', 'Type 2']).count()['#'])
