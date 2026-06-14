@@ -1,0 +1,25 @@
+import pandas as pd
+data = {"transcript": [" Hello World ", "HELLO WORLD", "hello world", "", None]}
+df = pd.DataFrame(data)
+print ("Dataset:\n",df)
+print ("---------------------------------------------")
+a = df.isnull()
+print ("Finding missing data:\n",a)
+print ("---------------------------------------------")
+b = df.isnull().sum()
+print ("Calculating the number of missing data:\n",b)
+print("---------------------------------------------")
+df["transcript"] = df["transcript"].str.strip()
+print("Deleting spaces:\n", df)
+print ("---------------------------------------------")
+df["transcript"] = df["transcript"].str.lower()
+print ("Lowercasing transcript texts:\n",df)
+print("---------------------------------------------")
+df = df.drop_duplicates()
+print ("Dropping duplicate data:\n",df)
+print ("---------------------------------------------")
+df.dropna(subset=["transcript"], inplace=True)
+for x in df.index:
+    if df.loc[x, "transcript"] == '':
+        df = df.drop(x)
+print ("Dropping unnamed records:\n",df)
