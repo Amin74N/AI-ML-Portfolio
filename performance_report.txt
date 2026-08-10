@@ -1,0 +1,70 @@
+File Name       : FLAC_EN.flac
+Status          : SUCCESS
+Language        : en
+Duration        : 30.02 sec
+Processing Time : 51.15 sec
+Real-Time Factor: 1.70
+
+File Name       : FLAC_FA.flac
+Status          : SUCCESS
+Language        : fa
+Duration        : 29.88 sec
+Processing Time : 16.16 sec
+Real-Time Factor: 0.54
+
+File Name       : M4A_EN.m4a
+Status          : SUCCESS
+Language        : en
+Duration        : 30.00 sec
+Processing Time : 6.43 sec
+Real-Time Factor: 0.21
+
+File Name       : M4A_FA.m4a
+Status          : SUCCESS
+Language        : fa
+Duration        : 28.12 sec
+Processing Time : 15.19 sec
+Real-Time Factor: 0.54
+
+File Name       : MP3_EN.mp3
+Status          : SUCCESS
+Language        : en
+Duration        : 29.99 sec
+Processing Time : 7.24 sec
+Real-Time Factor: 0.24
+
+File Name       : MP3_FA.mp3
+Status          : SUCCESS
+Language        : fa
+Duration        : 30.14 sec
+Processing Time : 58.22 sec
+Real-Time Factor: 1.93
+
+File Name       : OGG_EN.ogg
+Status          : SUCCESS
+Language        : en
+Duration        : 30.01 sec
+Processing Time : 9.06 sec
+Real-Time Factor: 0.30
+
+File Name       : OGG_FA.ogg
+Status          : SUCCESS
+Language        : fa
+Duration        : 29.18 sec
+Processing Time : 11.11 sec
+Real-Time Factor: 0.38
+
+File Name       : WAV_EN.wav
+Status          : SUCCESS
+Language        : en
+Duration        : 18.36 sec
+Processing Time : 4.91 sec
+Real-Time Factor: 0.27
+
+File Name       : WAV_FA.wav
+Status          : SUCCESS
+Language        : fa
+Duration        : 20.02 sec
+Processing Time : 9.66 sec
+Real-Time Factor: 0.48
+
