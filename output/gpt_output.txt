@@ -1,0 +1,6 @@
+GPT Text Generation:
+
+Prompt: Artificial intelligence is
+Generated Text: Artificial intelligence is a new technology that is being developed by researchers at the University of California, Berkeley.
+
+
