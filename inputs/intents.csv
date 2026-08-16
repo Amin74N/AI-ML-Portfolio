@@ -1,0 +1,21 @@
+text,intent
+Hello,GREETING
+Hi there,GREETING
+Good morning,GREETING
+"Hey, how are you?",GREETING
+I want to know where my order is,ORDER_STATUS
+Where is my order?,ORDER_STATUS
+Can you track my order?,ORDER_STATUS
+What is the status of my package?,ORDER_STATUS
+I want to complain,COMPLAINT
+I am unhappy with your service,COMPLAINT
+I received a damaged product,COMPLAINT
+The service was terrible,COMPLAINT
+What are your working hours?,QUESTION
+How can I change my address?,QUESTION
+Can I cancel my order?,QUESTION
+What payment methods do you accept?,QUESTION
+Goodbye,GOODBYE
+Bye,GOODBYE
+See you later,GOODBYE
+"Have a nice day, goodbye",GOODBYE
