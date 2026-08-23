@@ -1,0 +1,41 @@
+text,intent
+Tell me about quantum physics,NOT_RECOGNIZED
+"Hey, I'm here",GREETING
+Can you check what time it is?,GET_TIME
+Can you tell me what today's date is?,GET_DATE
+Wake me with a timer after ten seconds,SET_TIMER
+Pick something random from my music and play it,PLAY_MUSIC
+Should I expect rain outside?,GET_WEATHER
+Give me something useful to remember,SET_REMINDER
+I could really use a laugh,TELL_JOKE
+I need something to push me forward,MOTIVATION
+"Hello, can you hear me?",GREETING
+I need to know the time right now,GET_TIME
+I need to know which date it is,GET_DATE
+,NOT_RECOGNIZED
+I need a quick countdown for five seconds,SET_TIMER
+I'd like to hear a random song,PLAY_MUSIC
+Can you tell me how things look outside?,GET_WEATHER
+I could use a quick reminder right now,SET_REMINDER
+Hit me with something funny,TELL_JOKE
+Give me a little encouragement,MOTIVATION
+"Hi there, let's begin",GREETING
+Tell me what time we have,GET_TIME
+What date are we at today?,GET_DATE
+Could you start counting down from fifteen seconds?,SET_TIMER
+Could you put on some music?,PLAY_MUSIC
+Is the temperature warm right now?,GET_WEATHER
+I like eating pizza,NOT_RECOGNIZED
+Say something that reminds me to stay focused,SET_REMINDER
+Do you have something amusing to tell me?,TELL_JOKE
+Say something that will keep me going,MOTIVATION
+"Good evening, assistant",GREETING
+Would you tell me the time?,GET_TIME
+Would you check the date for me?,GET_DATE
+Please give me a twenty second countdown,SET_TIMER
+Start a random track from the music folder,PLAY_MUSIC
+What should I expect from the weather today?,GET_WEATHER
+Give me a random reminder message,SET_REMINDER
+Give me a random joke to cheer me up,TELL_JOKE
+I could really use an inspiring message,MOTIVATION
+That's everything I needed,GOODBYE
