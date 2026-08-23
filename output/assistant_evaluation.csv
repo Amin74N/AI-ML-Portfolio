@@ -1,0 +1,41 @@
+Command Number,Timestamp,Expected Intent,Transcript,Cleaned Text,Predicted Intent,Confidence,Recognition,Accuracy,Action,Response
+1,2026-08-23 12:39:53,NOT_RECOGNIZED,Tell me about quantum physics.,tell me about quantum physics,NOT_RECOGNIZED,0.39792782068252563,Not Recognized,Correct,NOT_RECOGNIZED,"I'm sorry, I didn't understand that. Please try again."
+2,2026-08-23 12:40:41,GREETING,"Hey, I'm here.",hey im here,GREETING,0.9163618087768555,Recognized,Correct,GREETING,Hello! How can I help you?
+3,2026-08-23 12:41:02,GET_TIME,Can you check what time it is?,can you check what time it is,GET_TIME,0.9871812462806702,Recognized,Correct,GET_TIME,The current time is 12:41:17.
+4,2026-08-23 12:41:25,GET_DATE,Can you tell me what today's date is?,can you tell me what todays date is,GET_DATE,0.9829314351081848,Recognized,Correct,GET_DATE,Today's date is 2026-08-23.
+5,2026-08-23 12:41:48,SET_TIMER,Wake me with a timer after 10 seconds.,wake me with a timer after 10 seconds,NOT_RECOGNIZED,0.39172056317329407,Not Recognized,Incorrect,NOT_RECOGNIZED,"I'm sorry, I didn't understand that. Please try again."
+6,2026-08-23 12:42:11,PLAY_MUSIC,Pick something random from my music and play it.,pick something random from my music and play it,PLAY_MUSIC,0.997900128364563,Recognized,Correct,PLAY_MUSIC,music number 3 was played.
+7,2026-08-23 12:42:43,GET_WEATHER,should I expect rain outside?,should i expect rain outside,GET_WEATHER,0.9696122407913208,Recognized,Correct,GET_WEATHER,I don't have live weather information right now.
+8,2026-08-23 12:43:06,SET_REMINDER,Give me something useful to remember.,give me something useful to remember,SET_REMINDER,0.9815560579299927,Recognized,Correct,SET_REMINDER,Remember to keep moving forward.
+9,2026-08-23 12:43:27,TELL_JOKE,I could really use a laugh.,i could really use a laugh,TELL_JOKE,0.8485842943191528,Recognized,Correct,TELL_JOKE,Why do programmers prefer dark mode? Because light attracts bugs!
+10,2026-08-23 12:43:54,MOTIVATION,I need something to push me forward.,i need something to push me forward,MOTIVATION,0.9072332382202148,Recognized,Correct,MOTIVATION,You are closer than you think. Don't give up.
+11,2026-08-23 12:44:16,GREETING,Hello? Can you hear me?,hello can you hear me,GREETING,0.9828008413314819,Recognized,Correct,GREETING,Hello! How can I help you?
+12,2026-08-23 12:44:36,GET_TIME,I need to know the time right now.,i need to know the time right now,GET_TIME,0.9698525667190552,Recognized,Correct,GET_TIME,The current time is 12:44:51.
+13,2026-08-23 12:45:00,GET_DATE,I need to know which date it is.,i need to know which date it is,GET_DATE,0.9800928831100464,Recognized,Correct,GET_DATE,Today's date is 2026-08-23.
+14,2026-08-23 12:45:22,NOT_RECOGNIZED,,,NOT_RECOGNIZED,0.0,Not Recognized,Correct,NOT_RECOGNIZED,
+15,2026-08-23 12:45:34,SET_TIMER,I need a quick countdown for 5 seconds.,i need a quick countdown for 5 seconds,SET_TIMER,0.9715948700904846,Recognized,Correct,SET_TIMER,Your 5 second timer finished.
+16,2026-08-23 12:46:01,PLAY_MUSIC,I would like to hear a random song.,i would like to hear a random song,PLAY_MUSIC,0.9484364986419678,Recognized,Correct,PLAY_MUSIC,music number 1 was played.
+17,2026-08-23 12:46:33,GET_WEATHER,Can you tell me how things look outside?,can you tell me how things look outside,GET_WEATHER,0.9429616928100586,Recognized,Correct,GET_WEATHER,I don't have live weather information right now.
+18,2026-08-23 12:46:56,SET_REMINDER,I could use a quick reminder right now.,i could use a quick reminder right now,SET_REMINDER,0.9131496548652649,Recognized,Correct,SET_REMINDER,Remember that consistency is more important than perfection.
+19,2026-08-23 12:47:19,TELL_JOKE,Hit me with something funny.,hit me with something funny,TELL_JOKE,0.9840978980064392,Recognized,Correct,TELL_JOKE,Why was the Python programmer confused? Because he couldn't C!
+20,2026-08-23 12:47:42,MOTIVATION,Give me a little encouragement.,give me a little encouragement,MOTIVATION,0.9265962839126587,Recognized,Correct,MOTIVATION,Stay consistent and trust the process.
+21,2026-08-23 12:48:05,GREETING,"Hi there, let's begin.",hi there lets begin,GREETING,0.990095853805542,Recognized,Correct,GREETING,Hello! How can I help you?
+22,2026-08-23 12:48:28,GET_TIME,Tell me what time we have.,tell me what time we have,GET_TIME,0.9791105389595032,Recognized,Correct,GET_TIME,The current time is 12:48:43.
+23,2026-08-23 12:48:51,GET_DATE,What date are we at today?,what date are we at today,GET_DATE,0.9777612686157227,Recognized,Correct,GET_DATE,Today's date is 2026-08-23.
+24,2026-08-23 12:49:21,SET_TIMER,Could you start counting down from 15 seconds?,could you start counting down from 15 seconds,NOT_RECOGNIZED,0.33468565344810486,Not Recognized,Incorrect,NOT_RECOGNIZED,"I'm sorry, I didn't understand that. Please try again."
+25,2026-08-23 12:49:46,PLAY_MUSIC,Could you put on some music?,could you put on some music,PLAY_MUSIC,0.9976074695587158,Recognized,Correct,PLAY_MUSIC,music number 3 was played.
+26,2026-08-23 12:50:17,GET_WEATHER,is the temperature warm right now.,is the temperature warm right now,GET_WEATHER,0.9608803987503052,Recognized,Correct,GET_WEATHER,I don't have live weather information right now.
+27,2026-08-23 12:50:41,NOT_RECOGNIZED,I like eating pizza.,i like eating pizza,NOT_RECOGNIZED,0.22964471578598022,Not Recognized,Correct,NOT_RECOGNIZED,"I'm sorry, I didn't understand that. Please try again."
+28,2026-08-23 12:51:05,SET_REMINDER,say something that reminds me to stay focused.,say something that reminds me to stay focused,SET_REMINDER,0.9366123080253601,Recognized,Correct,SET_REMINDER,Remember to take things one step at a time.
+29,2026-08-23 12:51:29,TELL_JOKE,Do you have something amusing to tell me?,do you have something amusing to tell me,TELL_JOKE,0.9776803851127625,Recognized,Correct,TELL_JOKE,Why was the Python programmer confused? Because he couldn't C!
+30,2026-08-23 12:51:56,MOTIVATION,say something that will keep me going.,say something that will keep me going,MOTIVATION,0.9750815629959106,Recognized,Correct,MOTIVATION,You are closer than you think. Don't give up.
+31,2026-08-23 12:52:19,GREETING,"Good evening, assistant.",good evening assistant,GREETING,0.8910191059112549,Recognized,Correct,GREETING,Hello! How can I help you?
+32,2026-08-23 12:52:41,GET_TIME,Would you tell me the time?,would you tell me the time,GET_TIME,0.980189323425293,Recognized,Correct,GET_TIME,The current time is 12:52:55.
+33,2026-08-23 12:53:05,GET_DATE,Would you check the date for me?,would you check the date for me,GET_DATE,0.9210924506187439,Recognized,Correct,GET_DATE,Today's date is 2026-08-23.
+34,2026-08-23 12:53:27,SET_TIMER,Please give me a 20 second countdown.,please give me a 20 second countdown,SET_TIMER,0.8204876184463501,Recognized,Correct,SET_TIMER,Your 20 second timer finished.
+35,2026-08-23 12:54:08,PLAY_MUSIC,start a random track from the music folder.,start a random track from the music folder,PLAY_MUSIC,0.9976223111152649,Recognized,Correct,PLAY_MUSIC,music number 2 was played.
+36,2026-08-23 12:54:40,GET_WEATHER,What should I expect from the weather today?,what should i expect from the weather today,GET_WEATHER,0.9865429401397705,Recognized,Correct,GET_WEATHER,I don't have live weather information right now.
+37,2026-08-23 12:55:02,SET_REMINDER,Give me a random reminder message.,give me a random reminder message,SET_REMINDER,0.9562355875968933,Recognized,Correct,SET_REMINDER,Remember to take things one step at a time.
+38,2026-08-23 12:55:24,TELL_JOKE,Give me a random joke to cheer me up.,give me a random joke to cheer me up,TELL_JOKE,0.7871281504631042,Recognized,Correct,TELL_JOKE,Why did the programmer quit his job? Because he didn't get arrays!
+39,2026-08-23 12:55:49,MOTIVATION,I could really use an inspiring message.,i could really use an inspiring message,MOTIVATION,0.9335744380950928,Recognized,Correct,MOTIVATION,You don't need to be perfect. You just need to keep moving.
+40,2026-08-23 12:56:13,GOODBYE,That's everything I needed.,thats everything i needed,GOODBYE,0.8902304768562317,Recognized,Correct,GOODBYE,It was a good session. Goodbye!
