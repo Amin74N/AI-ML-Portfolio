@@ -34,7 +34,7 @@ The system is designed to recognize user voice commands, classify them into pred
 
 ## Pipeline:
 
-The system consists of two connected pipelines: **Intent Classification Training** and **End-to-End Voice Assistant Execution**.
+The system consists of two connected pipelines: _Intent Classification Training_ and _End-to-End Voice Assistant Execution_.
 - The intent classification training pipeline is:
   - Intent Dataset → Text Preprocessing → Label Encoding → TF-IDF Feature Extraction → PyTorch Tensor Conversion → DataLoader → MLP Training → Validation → Model Evaluation → Model Comparison → Best Model Selection → Model Saving
 - The Voice Assistant follows an end-to-end speech processing and intent classification pipeline:
@@ -110,27 +110,27 @@ The system consists of two connected pipelines: **Intent Classification Training
 
 ## Technologies, Frameworks & Libraries:
 
-- | Technology   | Purpose                                    |
-  | ------------ | ------------------------------------------ |
-  | Python       | Main programming language                  |
-  | Pandas       | Dataset handling                           |
-  | NumPy        | Numerical/audio processing                 |
-  | Scikit-learn | TF-IDF, Label Encoding, Evaluation Metrics |
-  | PyTorch      | Intent Classification Neural Network       |
-  | Whisper      | Automatic Speech Recognition               |
-  | PyAudio      | Microphone recording                       |
-  | Wave         | WAV file processing                        |
-  | gTTS         | Text-to-Speech                             |
-  | playsound    | Audio playback                             |
-  | winsound     | Music playback                             |
-  | Matplotlib   | Visualization                              |
-  | Seaborn      | Confusion Matrix                           |
-  | pathlib      | File/path management                       |
-  | logging      | Application logging                        |
+| Technology   | Purpose                                    |
+| ------------ | ------------------------------------------ |
+| Python       | Main programming language                  |
+| Pandas       | Dataset handling                           |
+| NumPy        | Numerical/audio processing                 |
+| Scikit-learn | TF-IDF, Label Encoding, Evaluation Metrics |
+| PyTorch      | Intent Classification Neural Network       |
+| Whisper      | Automatic Speech Recognition               |
+| PyAudio      | Microphone recording                       |
+| Wave         | WAV file processing                        |
+| gTTS         | Text-to-Speech                             |
+| playsound    | Audio playback                             |
+| winsound     | Music playback                             |
+| Matplotlib   | Visualization                              |
+| Seaborn      | Confusion Matrix                           |
+| pathlib      | File/path management                       |
+| logging      | Application logging                        |
 
-## Installation:
-- Install the required Python packages:
-  - pip install pandas numpy matplotlib seaborn torch scikit-learn openai-whisper pyaudio gTTS playsound
+## Required Python Packages:
+
+pip install pandas numpy matplotlib seaborn torch scikit-learn openai-whisper pyaudio gTTS playsound
 
 ## Project Structure:
 
@@ -140,8 +140,7 @@ Voice-Assistant v2/
 ├── input/
 │   ├── model_train.csv
 │   ├── model_validation.csv
-│   ├── assistant_test.csv
-│   └── user_last_command.wav
+│   └── assistant_test.csv
 │
 ├── music/
 │   ├── music_01.wav
@@ -167,32 +166,35 @@ Voice-Assistant v2/
 
 ## Model Training:
 
-- The training dataset (`input/ model_train.csv`) contains:
+- The training dataset ( `input/ model_train.csv` ) contains:
   - 969 training samples
   - 10 intent classes
+
 - Training Distribution:
-  - GET_WEATHER     102
-  - GREETING         99
-  - MOTIVATION       99
-  - PLAY_MUSIC       99
-  - SET_TIMER        98
-  - GOODBYE          97
-  - GET_TIME         97
-  - TELL_JOKE        96
-  - GET_DATE         91
-  - SET_REMINDER     91
+  - GET_WEATHER : 102
+  - GREETING :     99
+  - MOTIVATION :   99
+  - PLAY_MUSIC :   99
+  - SET_TIMER  :   98
+  - GOODBYE :      97
+  - GET_TIME :     97
+  - TELL_JOKE :    96
+  - GET_DATE :     91
+  - SET_REMINDER : 91
+
 - Training configuration:
-  - Epochs: 10
-  - Batch Size: 32
-  - Optimizer: Adam
-  - Loss Function: CrossEntropyLoss
-  - Random Seed: 42
+  - Epochs        : 10
+  - Batch Size    : 32
+  - Optimizer     : Adam
+  - Loss Function : CrossEntropyLoss
+  - Random Seed   : 42
 
 ## Model Validation:
 
-- The validation dataset (`input/ model_validation.csv`) contains:
+- The validation dataset ( `input/ model_validation.csv` ) contains:
   - 300 validation samples
   - exactly 30 examples for each intent
+
 - Model Selection:
   - | Model   | Accuracy | Precision | Recall |   F1-Score |
     | ------- | -------: | --------: | -----: | ---------: |
@@ -200,27 +202,29 @@ Voice-Assistant v2/
     | MLP_128 |   0.9900 |    0.9903 | 0.9900 |     0.9899 |
     | MLP_256 |   0.9900 |    0.9902 | 0.9900 |     0.9899 |
   - The best model (MLP_64) is saved as `output/best_model.pth`
+
 - Classification Report:
-  -             recision    recall  f1-score   support
-
-    GET_DATE       1.00      1.00      1.00        30
-    GET_TIME       1.00      1.00      1.00        30
-    GET_WEATHER    1.00      1.00      1.00        30
-    GOODBYE        1.00      1.00      1.00        30
-    GREETING       1.00      1.00      1.00        30
-    MOTIVATION     0.91      1.00      0.95        30
-    PLAY_MUSIC     1.00      1.00      1.00        30
-    SET_REMINDER   1.00      0.90      0.95        30
-    SET_TIMER      1.00      1.00      1.00        30
-    TELL_JOKE      1.00      1.00      1.00        30
-
-    accuracy                            0.99       300
-    macro avg       0.99      0.99      0.99       300
-    weighted avg    0.99      0.99      0.99       300
+  - |              | recision |  recall  | f1-score |  support |
+    |--------------| -------: | -------: | -------: | -------: |
+    |              |          |          |          |          |
+    | GET_DATE     |   1.00   |   1.00   |   1.00   |     30   |
+    | GET_TIME     |   1.00   |   1.00   |   1.00   |     30   |
+    | GET_WEATHER  |   1.00   |   1.00   |   1.00   |     30   |
+    | GOODBYE      |   1.00   |   1.00   |   1.00   |     30   |
+    | GREETING     |   1.00   |   1.00   |   1.00   |     30   |
+    | MOTIVATION   |   0.91   |   1.00   |   0.95   |     30   |
+    | PLAY_MUSIC   |   1.00   |   1.00   |   1.00   |     30   |
+    | SET_REMINDER |   1.00   |   0.90   |   0.95   |     30   |
+    | SET_TIMER    |   1.00   |   1.00   |   1.00   |     30   |
+    | TELL_JOKE    |   1.00   |   1.00   |   1.00   |     30   |
+    |              |          |          |          |          |
+    |accuracy      |          |          |   0.99   |    300   |
+    |macro avg     |  0.99    |   0.99   |   0.99   |    300   |
+    |weighted avg  |  0.99    |   0.99   |   0.99   |    300   |
 
 ## Voice Assistant Evaluation Results:
 
-- The complete assistant was evaluated using test dataset (`input/ assistant_test.csv`) and scenarios included:
+- The complete assistant was evaluated using test dataset ( `input/ assistant_test.csv` ) and scenarios included:
   - Valid commands
   - Different phrasings of the same intent
   - Unsupported commands
@@ -229,7 +233,9 @@ Voice-Assistant v2/
   - Music commands
   - Weather requests
   - Goodbye command
+
 - The complete test scenario is documented in: `tested_scenario.txt`
+
 - Evaluation Summary:
   - | Metric                |     Result |
     | --------------------- | ---------: |
@@ -240,11 +246,12 @@ Voice-Assistant v2/
     | Correct Predictions   |         38 |
     | Incorrect Predictions |          2 |
     | End-to-End Accuracy   | **95.00%** |
+
 - The detailed result of every test command is reported in: `output/ assistant_evaluation.csv`
 
 ## Visualization:
 
-- The project generates several visualizations for analyzing both the intent classification model and the complete voice assistant.
+- The project generates several visualizations for analyzing both the intent classification model and the complete voice assistant:
   - Confusion Matrix
     - Shows the classification performance across all intent classes.
     - Helps identify correct predictions and misclassified intents.
