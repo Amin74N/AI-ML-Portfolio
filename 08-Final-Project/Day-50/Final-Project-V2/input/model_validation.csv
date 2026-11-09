@@ -1,0 +1,301 @@
+text,intent
+"Hey there, assistant",GREETING
+"Hello, are you listening?",GREETING
+"Good morning, are you ready?",GREETING
+"Hi, I'm back",GREETING
+"Hey, nice to see you",GREETING
+"Hello, can we begin?",GREETING
+"Hi there, assistant",GREETING
+"Hey, how are you doing?",GREETING
+"Hello, I'm ready to start",GREETING
+"Hi, are you available?",GREETING
+"Hey assistant, are you awake?",GREETING
+"Hello, I just arrived",GREETING
+"Hi, let's begin our session",GREETING
+"Hey, can you hear me?",GREETING
+"Hello assistant, I'm back again",GREETING
+"Hi, are you ready?",GREETING
+"Hey there, can we talk?",GREETING
+"Hello, I need your help",GREETING
+"Hi assistant, let's begin",GREETING
+"Hey, good to see you",GREETING
+"Hello there, are you online?",GREETING
+"Hi, I'm ready",GREETING
+"Hey assistant, I'm here",GREETING
+"Hello, let's get started",GREETING
+"Hi there, can we start?",GREETING
+"Hey, are you available right now?",GREETING
+"Hello assistant, good to see you",GREETING
+"Hi, I just wanted to say hello",GREETING
+"Hey there, I'm ready to go",GREETING
+"Hello, are you ready to help?",GREETING
+"That's it",GOODBYE
+"I'm finished",GOODBYE
+"You can shut down now",GOODBYE
+"I'll talk to you later",GOODBYE
+"I think we're finished",GOODBYE
+"I'm done for today",GOODBYE
+"That's all I need",GOODBYE
+"I'll see you another time",GOODBYE
+"We can stop here",GOODBYE
+"I don't need anything else",GOODBYE
+"I'm going now",GOODBYE
+"Let's end this session",GOODBYE
+"You can stop listening",GOODBYE
+"I have nothing else to ask",GOODBYE
+"That's enough for now",GOODBYE
+"I'll be back later",GOODBYE
+"We're finished for now",GOODBYE
+"End the conversation",GOODBYE
+"I should go now",GOODBYE
+"Let's wrap things up",GOODBYE
+"I'm heading out now",GOODBYE
+"We can finish here",GOODBYE
+"I'll come back later",GOODBYE
+"No more questions for now",GOODBYE
+"Okay, I'm leaving",GOODBYE
+"You can go idle now",GOODBYE
+"I think that's everything",GOODBYE
+"Let's stop here",GOODBYE
+"I'll talk with you later",GOODBYE
+"Goodbye for now",GOODBYE
+"What does the clock say?",GET_TIME
+"Could you give me the current time?",GET_TIME
+"Do you have the time?",GET_TIME
+"I want to know the time",GET_TIME
+"Can you tell me what time we have?",GET_TIME
+"What time is showing right now?",GET_TIME
+"Could you tell me the time please?",GET_TIME
+"I'd like to know the current time",GET_TIME
+"Do you know the exact time?",GET_TIME
+"Can you check the clock?",GET_TIME
+"What is the clock showing?",GET_TIME
+"Please check what time it is",GET_TIME
+"Would you tell me the current time?",GET_TIME
+"I need the current time",GET_TIME
+"Could I get the time?",GET_TIME
+"Please check the clock for me",GET_TIME
+"What time are we at right now?",GET_TIME
+"Tell me what the clock says",GET_TIME
+"Can you find out the current time?",GET_TIME
+"I'd like to check the time",GET_TIME
+"Do you know what the clock says?",GET_TIME
+"Could I know what time it is now?",GET_TIME
+"Please let me know the time",GET_TIME
+"What is the exact time right now?",GET_TIME
+"Would you check the clock for me?",GET_TIME
+"I need to check the time",GET_TIME
+"Can you tell me the exact time?",GET_TIME
+"What time is it currently?",GET_TIME
+"Please tell me what time we have",GET_TIME
+"Could you find the time for me?",GET_TIME
+"What is the date today?",GET_DATE
+"Do you know today's date?",GET_DATE
+"Could you give me today's date?",GET_DATE
+"What day and date is it?",GET_DATE
+"Can you tell me what day we are on?",GET_DATE
+"I'd like to know today's date",GET_DATE
+"Could you check today's date for me?",GET_DATE
+"What is today's calendar date?",GET_DATE
+"Can you tell me the date today?",GET_DATE
+"I need to know the current date",GET_DATE
+"Do you know what date we have?",GET_DATE
+"Please check the date",GET_DATE
+"What calendar date is it?",GET_DATE
+"Would you tell me today's date?",GET_DATE
+"Could I find out the date?",GET_DATE
+"Tell me which day it is",GET_DATE
+"Can you check what date it is?",GET_DATE
+"I want to check today's date",GET_DATE
+"What date are we at right now?",GET_DATE
+"Please let me know the date",GET_DATE
+"Could you tell me the calendar date?",GET_DATE
+"What day are we on?",GET_DATE
+"Do you know the current date?",GET_DATE
+"Can I find out today's date?",GET_DATE
+"Please tell me which date we have",GET_DATE
+"Would you check what today's date is?",GET_DATE
+"I need today's calendar date",GET_DATE
+"Tell me the date we are on",GET_DATE
+"Can you find today's date?",GET_DATE
+"Which day is today?",GET_DATE
+"Start a countdown for twenty seconds",SET_TIMER
+"Set a short timer for ten seconds",SET_TIMER
+"I want a fifteen second timer",SET_TIMER
+"Start the timer for three seconds",SET_TIMER
+"Set a countdown for twenty five seconds",SET_TIMER
+"Start counting down for ten seconds",SET_TIMER
+"Could you start a timer for twelve seconds?",SET_TIMER
+"I need a timer for twenty seconds",SET_TIMER
+"Please start a countdown for five seconds",SET_TIMER
+"Set the countdown to thirty seconds",SET_TIMER
+"Can you start a ten second countdown?",SET_TIMER
+"Give me a timer for fifteen seconds",SET_TIMER
+"Start a countdown for eight seconds",SET_TIMER
+"I'd like a timer set for twelve seconds",SET_TIMER
+"Could you set the countdown for twenty seconds?",SET_TIMER
+"Start a timer counting down from ten",SET_TIMER
+"Please set a timer for seven seconds",SET_TIMER
+"Can you give me a five second countdown?",SET_TIMER
+"I need a countdown of fifteen seconds",SET_TIMER
+"Set the timer to thirty seconds",SET_TIMER
+"Would you start a timer for six seconds?",SET_TIMER
+"Please begin a twenty second countdown",SET_TIMER
+"Can you set the timer for twelve seconds?",SET_TIMER
+"Start counting down from five seconds",SET_TIMER
+"I'd like a seven second timer",SET_TIMER
+"Set a countdown for fifteen seconds",SET_TIMER
+"Please start a timer for twenty five seconds",SET_TIMER
+"Give me a countdown for ten seconds",SET_TIMER
+"Can you start counting down for three seconds?",SET_TIMER
+"I need you to set a fifteen second timer",SET_TIMER
+"Choose a random song and play it",PLAY_MUSIC
+"Play something from the music folder",PLAY_MUSIC
+"Give me some music",PLAY_MUSIC
+"Start playing a random song",PLAY_MUSIC
+"Could you play a song for me?",PLAY_MUSIC
+"I want some music playing",PLAY_MUSIC
+"Put some music on",PLAY_MUSIC
+"Can you start playing a song?",PLAY_MUSIC
+"Play something random",PLAY_MUSIC
+"Start a song for me",PLAY_MUSIC
+"I'd like to listen to some music",PLAY_MUSIC
+"Can you put on a song?",PLAY_MUSIC
+"Play a random track",PLAY_MUSIC
+"Start some music for me",PLAY_MUSIC
+"Could you play some music now?",PLAY_MUSIC
+"I want you to play music",PLAY_MUSIC
+"Put on a random song",PLAY_MUSIC
+"Can you choose a song and play it?",PLAY_MUSIC
+"Start playing something",PLAY_MUSIC
+"Play me something from the music folder",PLAY_MUSIC
+"I'd like a random song",PLAY_MUSIC
+"Please start the music for me",PLAY_MUSIC
+"Can you play a random track?",PLAY_MUSIC
+"Put on some random music",PLAY_MUSIC
+"Start a random song",PLAY_MUSIC
+"I want to hear some music",PLAY_MUSIC
+"Please play something",PLAY_MUSIC
+"Could you start some music?",PLAY_MUSIC
+"Play any song you like",PLAY_MUSIC
+"Let's listen to some music",PLAY_MUSIC
+"Do I need an umbrella today?",GET_WEATHER
+"Is it going to rain?",GET_WEATHER
+"What are the weather conditions?",GET_WEATHER
+"Give me the current weather",GET_WEATHER
+"Will it rain today?",GET_WEATHER
+"Is there rain expected outside?",GET_WEATHER
+"What's happening with the weather?",GET_WEATHER
+"Can you check the weather for me?",GET_WEATHER
+"How does the weather look today?",GET_WEATHER
+"Should I take an umbrella?",GET_WEATHER
+"Is the sky expected to be clear?",GET_WEATHER
+"What's the temperature like today?",GET_WEATHER
+"Can you tell me if it will rain?",GET_WEATHER
+"How is it outside today?",GET_WEATHER
+"Will the weather be sunny today?",GET_WEATHER
+"Is there any rain outside?",GET_WEATHER
+"How warm is it outside today?",GET_WEATHER
+"How cool is it outside?",GET_WEATHER
+"Could you check today's weather?",GET_WEATHER
+"What should I expect outside today?",GET_WEATHER
+"Is the weather nice today?",GET_WEATHER
+"Will I need an umbrella?",GET_WEATHER
+"Can you check the temperature outside?",GET_WEATHER
+"What's the forecast looking like?",GET_WEATHER
+"Is it cold outside today?",GET_WEATHER
+"Is it hot outside today?",GET_WEATHER
+"Tell me how the weather looks",GET_WEATHER
+"Could you tell me about today's conditions?",GET_WEATHER
+"What is the temperature right now?",GET_WEATHER
+"Can you check if it's raining?",GET_WEATHER
+"Remind me to take a short break",SET_REMINDER
+"Tell me a useful reminder",SET_REMINDER
+"I could use a reminder",SET_REMINDER
+"Say a reminder for me",SET_REMINDER
+"Give me something to remember",SET_REMINDER
+"Please remind me about something",SET_REMINDER
+"I'd like a quick reminder",SET_REMINDER
+"Can you give me something to remember?",SET_REMINDER
+"Remind me to stay on track",SET_REMINDER
+"Please give me a useful reminder",SET_REMINDER
+"I need something to remind me",SET_REMINDER
+"Could you give me a reminder?",SET_REMINDER
+"Tell me something I should remember",SET_REMINDER
+"Give me a helpful reminder",SET_REMINDER
+"Can you provide a quick reminder?",SET_REMINDER
+"I'd like a random reminder",SET_REMINDER
+"Please remind me to keep focused",SET_REMINDER
+"Give me a reminder message",SET_REMINDER
+"Could you remind me about taking a break?",SET_REMINDER
+"I need something useful to remember",SET_REMINDER
+"Please give me something worth remembering",SET_REMINDER
+"Can you remind me to stay focused?",SET_REMINDER
+"I could use some helpful reminder",SET_REMINDER
+"Tell me a reminder that is useful",SET_REMINDER
+"Give me a short reminder",SET_REMINDER
+"Would you give me a reminder?",SET_REMINDER
+"Please remind me to keep moving forward",SET_REMINDER
+"I need a little reminder",SET_REMINDER
+"Can you suggest a reminder?",SET_REMINDER
+"Tell me something to help me stay focused",SET_REMINDER
+"Tell me something that will make me laugh",TELL_JOKE
+"Do you have a funny joke?",TELL_JOKE
+"Entertain me with a joke",TELL_JOKE
+"Say a random joke",TELL_JOKE
+"Can you give me something hilarious?",TELL_JOKE
+"I want to hear something funny",TELL_JOKE
+"Tell me a funny story",TELL_JOKE
+"Do you know a good joke?",TELL_JOKE
+"Make me laugh with something",TELL_JOKE
+"Give me a joke to cheer me up",TELL_JOKE
+"Can you entertain me?",TELL_JOKE
+"I need something funny",TELL_JOKE
+"Say something that will make me laugh",TELL_JOKE
+"Do you have anything funny to say?",TELL_JOKE
+"Tell me a silly joke",TELL_JOKE
+"Give me your funniest joke",TELL_JOKE
+"Could you make me laugh?",TELL_JOKE
+"I'd like to hear a funny joke",TELL_JOKE
+"Tell me something amusing",TELL_JOKE
+"Can you tell me something humorous?",TELL_JOKE
+"I could use a funny joke",TELL_JOKE
+"Please entertain me with a joke",TELL_JOKE
+"Do you have a joke for me?",TELL_JOKE
+"Give me something amusing",TELL_JOKE
+"Tell me a joke to brighten my mood",TELL_JOKE
+"Can you say something funny?",TELL_JOKE
+"I want something to make me laugh",TELL_JOKE
+"Please tell me a humorous joke",TELL_JOKE
+"Give me a silly joke",TELL_JOKE
+"Could you tell me a random funny joke?",TELL_JOKE
+"Give me something inspiring",MOTIVATION
+"Help me stay motivated",MOTIVATION
+"Say something positive and motivating",MOTIVATION
+"Tell me something to keep me going",MOTIVATION
+"Give me a little encouragement",MOTIVATION
+"I need a boost of motivation",MOTIVATION
+"Please encourage me",MOTIVATION
+"Tell me something uplifting",MOTIVATION
+"I need some positive words",MOTIVATION
+"Can you give me some encouragement?",MOTIVATION
+"Help me keep moving forward",MOTIVATION
+"Say something that inspires me",MOTIVATION
+"I could use some encouragement today",MOTIVATION
+"Give me a positive message",MOTIVATION
+"Tell me something that gives me hope",MOTIVATION
+"I need something to lift my spirits",MOTIVATION
+"Can you say something inspiring?",MOTIVATION
+"Give me a motivational boost",MOTIVATION
+"Please say something encouraging",MOTIVATION
+"Help me feel motivated",MOTIVATION
+"I need some positive encouragement",MOTIVATION
+"Tell me something that will inspire me",MOTIVATION
+"Give me a few motivating words",MOTIVATION
+"Can you help me stay positive?",MOTIVATION
+"I'd like some words of encouragement",MOTIVATION
+"Say something that pushes me forward",MOTIVATION
+"Please give me some inspiration",MOTIVATION
+"I need a little motivation right now",MOTIVATION
+"Tell me something uplifting and positive",MOTIVATION
+"Give me a reason to keep going",MOTIVATION

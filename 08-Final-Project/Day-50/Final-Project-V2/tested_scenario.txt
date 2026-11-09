@@ -1,0 +1,40 @@
+Command: 01 - User Say: Tell me about quantum physics.
+Command: 02 - User Say: Hey, I'm here.
+Command: 03 - User Say: Can you check what time it is?
+Command: 04 - User Say: Can you tell me what today's date is?
+Command: 05 - User Say: Wake me with a timer after ten seconds.
+Command: 06 - User Say: Pick something random from my music and play it.
+Command: 07 - User Say: Should I expect rain outside?
+Command: 08 - User Say: Give me something useful to remember.
+Command: 09 - User Say: I could really use a laugh.
+Command: 10 - User Say: I need something to push me forward.
+Command: 11 - User Say: Hello, can you hear me?
+Command: 12 - User Say: I need to know the time right now.
+Command: 13 - User Say: I need to know which date it is.
+Command: 14 - User Say: (SILENCE)
+Command: 15 - User Say: I need a quick countdown for five seconds.
+Command: 16 - User Say: I'd like to hear a random song.
+Command: 17 - User Say: Can you tell me how things look outside?
+Command: 18 - User Say: I could use a quick reminder right now.
+Command: 19 - User Say: Hit me with something funny.
+Command: 20 - User Say: Give me a little encouragement.
+Command: 21 - User Say: Hi there, let's begin.
+Command: 22 - User Say: Tell me what time we have.
+Command: 23 - User Say: What date are we at today?
+Command: 24 - User Say: Could you start counting down from fifteen seconds?
+Command: 25 - User Say: Could you put on some music?
+Command: 26 - User Say: Is the temperature warm right now?
+Command: 27 - User Say: I like eating pizza.
+Command: 28 - User Say: Say something that reminds me to stay focused.
+Command: 29 - User Say: Do you have something amusing to tell me?
+Command: 30 - User Say: Say something that will keep me going.
+Command: 31 - User Say: Good evening, assistant.
+Command: 32 - User Say: Would you tell me the time?
+Command: 33 - User Say: Would you check the date for me?
+Command: 34 - User Say: Please give me a twenty-second countdown.
+Command: 35 - User Say: Start a random track from the music folder.
+Command: 36 - User Say: What should I expect from the weather today?
+Command: 37 - User Say: Give me a random reminder message.
+Command: 38 - User Say: Give me a random joke to cheer me up.
+Command: 39 - User Say: I could really use an inspiring message.
+Command: 40 - User Say: That's everything I needed.

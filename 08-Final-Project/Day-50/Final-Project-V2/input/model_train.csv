@@ -1,0 +1,970 @@
+text,intent
+Hello,GREETING
+Hi,GREETING
+Hey,GREETING
+Good morning,GREETING
+Good afternoon,GREETING
+Good evening,GREETING
+Hello there,GREETING
+Hi assistant,GREETING
+Hey assistant,GREETING
+Hello assistant,GREETING
+Hey are you there,GREETING
+Hi lets get started,GREETING
+Hey there,GREETING
+Hi there,GREETING
+Hello again,GREETING
+Hey there assistant,GREETING
+Hi there assistant,GREETING
+Hello my friend,GREETING
+Hey my friend,GREETING
+Hi my friend,GREETING
+Hello can you hear me,GREETING
+Hey can you hear me,GREETING
+Hi can you hear me,GREETING
+Hello are you there,GREETING
+Hey are you listening,GREETING
+Hi are you listening,GREETING
+Hello are you ready,GREETING
+Hey are you ready,GREETING
+Hi are you ready,GREETING
+Hello lets begin,GREETING
+Hey lets begin,GREETING
+Hi lets begin,GREETING
+Hello lets start,GREETING
+Hey lets start,GREETING
+Hi lets start,GREETING
+Hello assistant are you ready,GREETING
+Hey assistant are you ready,GREETING
+Hi assistant are you ready,GREETING
+Hello assistant can you hear me,GREETING
+Hey assistant can you hear me,GREETING
+Hi assistant can you hear me,GREETING
+Hello I am back,GREETING
+Hey I am back,GREETING
+Hi I am back,GREETING
+Hello I am here,GREETING
+Hey I am here,GREETING
+Hi I am here,GREETING
+Hello good to see you,GREETING
+Hey good to see you,GREETING
+Hi good to see you,GREETING
+Hello nice to meet you,GREETING
+Hey nice to meet you,GREETING
+Hi nice to meet you,GREETING
+Hello how are you,GREETING
+Hey how are you,GREETING
+Hi how are you,GREETING
+Hello how is everything,GREETING
+Hey how is everything,GREETING
+Hi how is everything,GREETING
+Hello what is going on,GREETING
+Hey what is going on,GREETING
+Hi what is going on,GREETING
+Hello can we start,GREETING
+Hey can we start,GREETING
+Hi can we start,GREETING
+Hello can we begin,GREETING
+Hey can we begin,GREETING
+Hi can we begin,GREETING
+Hello I need your help,GREETING
+Hey I need your help,GREETING
+Hi I need your help,GREETING
+Hello assistant I am back,GREETING
+Hey assistant I am back,GREETING
+Hi assistant I am back,GREETING
+Hello there are you available,GREETING
+Hey there are you available,GREETING
+Hi there are you available,GREETING
+Hello are you available,GREETING
+Hey are you available,GREETING
+Hi are you available,GREETING
+Hello lets get started,GREETING
+Hey lets get started,GREETING
+Hi lets get started,GREETING
+Hello we can begin now,GREETING
+Hey we can begin now,GREETING
+Hi we can begin now,GREETING
+Hello I am ready,GREETING
+Hey I am ready,GREETING
+Hi I am ready,GREETING
+Hello assistant I am ready,GREETING
+Hey assistant I am ready,GREETING
+Hi assistant I am ready,GREETING
+Hello there assistant,GREETING
+Hey there assistant,GREETING
+Hi there assistant,GREETING
+Good to have you here,GREETING
+Nice to see you,GREETING
+Glad to see you,GREETING
+Good to hear from you,GREETING
+Goodbye,GOODBYE
+Bye,GOODBYE
+See you later,GOODBYE
+See you,GOODBYE
+Bye for now,GOODBYE
+I have to go,GOODBYE
+I am leaving now,GOODBYE
+Thats all for now,GOODBYE
+I am done,GOODBYE
+We are done here,GOODBYE
+Talk to you later,GOODBYE
+You can stop now,GOODBYE
+I need to leave,GOODBYE
+I have to leave,GOODBYE
+I am going now,GOODBYE
+I should go now,GOODBYE
+I need to go now,GOODBYE
+See you soon,GOODBYE
+See you next time,GOODBYE
+Talk to you soon,GOODBYE
+Catch you later,GOODBYE
+Until next time,GOODBYE
+Have a good day,GOODBYE
+Have a nice day,GOODBYE
+Have a good evening,GOODBYE
+Have a nice evening,GOODBYE
+Good night,GOODBYE
+I am finished,GOODBYE
+I am finished here,GOODBYE
+Thats everything,GOODBYE
+Thats all I need,GOODBYE
+Thats all I wanted,GOODBYE
+I am done for today,GOODBYE
+We are finished,GOODBYE
+We are done,GOODBYE
+You can stop,GOODBYE
+Stop now,GOODBYE
+You can shut down now,GOODBYE
+Please stop,GOODBYE
+I want to leave,GOODBYE
+Let me go now,GOODBYE
+I will go now,GOODBYE
+I am heading out,GOODBYE
+I am off now,GOODBYE
+Time for me to go,GOODBYE
+It is time to go,GOODBYE
+I should be leaving,GOODBYE
+I will talk to you later,GOODBYE
+I will see you later,GOODBYE
+I will see you soon,GOODBYE
+We can stop here,GOODBYE
+Lets stop here,GOODBYE
+We can finish now,GOODBYE
+Lets finish now,GOODBYE
+This is enough for now,GOODBYE
+That will be all,GOODBYE
+That is all,GOODBYE
+Nothing else for now,GOODBYE
+I dont need anything else,GOODBYE
+I am all done,GOODBYE
+I have finished everything,GOODBYE
+Everything is done,GOODBYE
+We have finished,GOODBYE
+Our session is over,GOODBYE
+The session is finished,GOODBYE
+End the session,GOODBYE
+Lets end this session,GOODBYE
+I want to end the session,GOODBYE
+You can end now,GOODBYE
+You can finish now,GOODBYE
+You can stop helping me,GOODBYE
+I dont need help anymore,GOODBYE
+I am leaving,GOODBYE
+I am heading home,GOODBYE
+I need to head out,GOODBYE
+I have somewhere to go,GOODBYE
+I need to get going,GOODBYE
+I should get going,GOODBYE
+I have to get going,GOODBYE
+I will be back later,GOODBYE
+Maybe I will see you later,GOODBYE
+See you another time,GOODBYE
+Until we meet again,GOODBYE
+Goodbye for now,GOODBYE
+Bye bye,GOODBYE
+Farewell,GOODBYE
+Take care,GOODBYE
+Take care for now,GOODBYE
+Have a great day,GOODBYE
+Have a wonderful day,GOODBYE
+Have a great evening,GOODBYE
+Enjoy the rest of your day,GOODBYE
+I think we are done,GOODBYE
+I think that is all,GOODBYE
+I have nothing else to ask,GOODBYE
+We can end here,GOODBYE
+Lets call it a day,GOODBYE
+What time is it,GET_TIME
+Tell me the time,GET_TIME
+What is the current time,GET_TIME
+Can you tell me the time,GET_TIME
+Whats the time right now,GET_TIME
+Do you know what time it is,GET_TIME
+What time do we have,GET_TIME
+Can I know the time,GET_TIME
+Check the time for me,GET_TIME
+What is the time now,GET_TIME
+Please tell me the current time,GET_TIME
+Could you check the time,GET_TIME
+Can you check the clock,GET_TIME
+What does the clock say,GET_TIME
+What time is it right now,GET_TIME
+Tell me what time it is,GET_TIME
+I want to know the time,GET_TIME
+I need to know the time,GET_TIME
+I need the current time,GET_TIME
+Give me the current time,GET_TIME
+Tell me what the clock says,GET_TIME
+Can you check what time it is,GET_TIME
+Could you tell me what time it is,GET_TIME
+Would you tell me the time,GET_TIME
+Would you check the time,GET_TIME
+Please check the time,GET_TIME
+Please check what time it is,GET_TIME
+Can you give me the time,GET_TIME
+Could you give me the time,GET_TIME
+Do you have the time,GET_TIME
+Do you know the current time,GET_TIME
+Do you know the exact time,GET_TIME
+What is the exact time,GET_TIME
+What is the time at the moment,GET_TIME
+What time is it at the moment,GET_TIME
+What time are we at,GET_TIME
+What time are we on,GET_TIME
+Can you tell me the exact time,GET_TIME
+Please give me the exact time,GET_TIME
+I would like to know the time,GET_TIME
+I would like the current time,GET_TIME
+I want the current time,GET_TIME
+I need the exact time,GET_TIME
+Tell me the exact time,GET_TIME
+Tell me the time please,GET_TIME
+Check the clock for me,GET_TIME
+Look at the clock for me,GET_TIME
+Can you look at the time,GET_TIME
+Could you look at the clock,GET_TIME
+Tell me the clock time,GET_TIME
+What time is shown on the clock,GET_TIME
+What time does the clock show,GET_TIME
+Can you see the current time,GET_TIME
+Can you find the current time,GET_TIME
+Could you find out the time,GET_TIME
+Please find out the time,GET_TIME
+Find the current time for me,GET_TIME
+I need to check the time,GET_TIME
+Help me check the time,GET_TIME
+Can you help me with the time,GET_TIME
+Could you help me check the time,GET_TIME
+Tell me the time right now please,GET_TIME
+Tell me what time we have,GET_TIME
+What time have we got,GET_TIME
+What time is available now,GET_TIME
+Do you know the time right now,GET_TIME
+Do you know what the clock says,GET_TIME
+Can you tell what time it is,GET_TIME
+Could you tell what time it is,GET_TIME
+Please tell me what time it is,GET_TIME
+Please tell me what the clock says,GET_TIME
+I am wondering what time it is,GET_TIME
+I was wondering what time it is,GET_TIME
+I am curious about the current time,GET_TIME
+I need to check the clock,GET_TIME
+I want to check the clock,GET_TIME
+Can you check the current time for me,GET_TIME
+Could you check the current time for me,GET_TIME
+Please check the current time for me,GET_TIME
+Give me the time right now,GET_TIME
+Give me the exact time right now,GET_TIME
+What is the current clock time,GET_TIME
+What is the clock time right now,GET_TIME
+Can you provide the current time,GET_TIME
+Could you provide the current time,GET_TIME
+Please provide the current time,GET_TIME
+I need the time right now,GET_TIME
+I want the time right now,GET_TIME
+Tell me the time at this moment,GET_TIME
+What time is it at this moment,GET_TIME
+Could you tell me the time at this moment,GET_TIME
+Please tell me the time at this moment,GET_TIME
+I need to know what time it is,GET_TIME
+Can you tell me what time we have,GET_TIME
+Could you tell me what time we have,GET_TIME
+Please tell me what time we have,GET_TIME
+What is our current time,GET_TIME
+What date is it,GET_DATE
+Whats todays date,GET_DATE
+Tell me the date,GET_DATE
+What is the current date,GET_DATE
+Can you tell me todays date,GET_DATE
+What day is it today,GET_DATE
+Tell me what date it is,GET_DATE
+Which date is it today,GET_DATE
+What date are we on,GET_DATE
+Can you check todays date,GET_DATE
+I want to know the date,GET_DATE
+Please tell me todays date,GET_DATE
+What is the date right now,GET_DATE
+Tell me the current date,GET_DATE
+Can you give me the date,GET_DATE
+Could you give me the date,GET_DATE
+What date is today,GET_DATE
+Do you know todays date,GET_DATE
+Do you know what date it is,GET_DATE
+Do you know the current date,GET_DATE
+What is todays date,GET_DATE
+Can you tell me what date it is,GET_DATE
+Could you tell me what date it is,GET_DATE
+Please tell me what date it is,GET_DATE
+I need to know the date,GET_DATE
+I need the current date,GET_DATE
+Give me the current date,GET_DATE
+I want the current date,GET_DATE
+I need todays date,GET_DATE
+Tell me todays date please,GET_DATE
+Please give me todays date,GET_DATE
+Could you check the date,GET_DATE
+Can you check the date,GET_DATE
+Please check the date,GET_DATE
+Check the date for me,GET_DATE
+Check todays date for me,GET_DATE
+Could you check todays date,GET_DATE
+What day and date is it,GET_DATE
+What day is today,GET_DATE
+Which day is today,GET_DATE
+Can you tell me which day it is,GET_DATE
+Can you tell me which date it is,GET_DATE
+Could you tell me which date it is,GET_DATE
+I would like to know the date,GET_DATE
+I would like the current date,GET_DATE
+Tell me the exact date,GET_DATE
+What is the exact date,GET_DATE
+Can you tell me the exact date,GET_DATE
+Please give me the exact date,GET_DATE
+What date are we at,GET_DATE
+Which date are we at,GET_DATE
+What date do we have today,GET_DATE
+What day do we have today,GET_DATE
+Can you tell me what day we have,GET_DATE
+Tell me what day we have today,GET_DATE
+I need to check the date,GET_DATE
+I want to check the date,GET_DATE
+Help me check the date,GET_DATE
+Can you help me check the date,GET_DATE
+Could you help me check the date,GET_DATE
+What date is it right now,GET_DATE
+What day is it right now,GET_DATE
+What is the date at the moment,GET_DATE
+What date is it at the moment,GET_DATE
+What day is it at the moment,GET_DATE
+Tell me the date right now,GET_DATE
+Give me the date right now,GET_DATE
+Can you provide the current date,GET_DATE
+Could you provide the current date,GET_DATE
+Please provide the current date,GET_DATE
+I am wondering what date it is,GET_DATE
+I was wondering what date it is,GET_DATE
+I am curious about todays date,GET_DATE
+Tell me what date we have,GET_DATE
+Can you tell me what date we have,GET_DATE
+Could you tell me what date we have,GET_DATE
+Please tell me what date we have,GET_DATE
+What date do we have,GET_DATE
+I need to know what date it is,GET_DATE
+What is our current date,GET_DATE
+Can you tell me the current day,GET_DATE
+What is the current day,GET_DATE
+Please tell me the current day,GET_DATE
+Could you tell me the current day,GET_DATE
+What day are we on,GET_DATE
+Which day are we on,GET_DATE
+Can you check what day it is,GET_DATE
+Could you check what day it is,GET_DATE
+Please check what day it is,GET_DATE
+Tell me what day it is,GET_DATE
+I want to know what day it is,GET_DATE
+Set a timer for ten seconds,SET_TIMER
+Start a ten second timer,SET_TIMER
+Set a timer for five seconds,SET_TIMER
+Start a timer for fifteen seconds,SET_TIMER
+Set the timer to twenty seconds,SET_TIMER
+Give me a ten second timer,SET_TIMER
+Start a five second countdown,SET_TIMER
+Set a countdown for ten seconds,SET_TIMER
+Start a fifteen second countdown,SET_TIMER
+Set the timer for three seconds,SET_TIMER
+I need a ten second timer,SET_TIMER
+Can you set a timer for five seconds,SET_TIMER
+Set a timer for one second,SET_TIMER
+Start a timer for one second,SET_TIMER
+Set a timer for two seconds,SET_TIMER
+Start a timer for two seconds,SET_TIMER
+Set a timer for three seconds,SET_TIMER
+Start a timer for three seconds,SET_TIMER
+Set a timer for four seconds,SET_TIMER
+Start a timer for four seconds,SET_TIMER
+Set a timer for six seconds,SET_TIMER
+Start a timer for six seconds,SET_TIMER
+Set a timer for seven seconds,SET_TIMER
+Start a timer for seven seconds,SET_TIMER
+Set a timer for eight seconds,SET_TIMER
+Start a timer for eight seconds,SET_TIMER
+Set a timer for nine seconds,SET_TIMER
+Start a timer for nine seconds,SET_TIMER
+Set a timer for thirty seconds,SET_TIMER
+Start a thirty second timer,SET_TIMER
+Set a countdown for five seconds,SET_TIMER
+Start a countdown for five seconds,SET_TIMER
+Set a countdown for fifteen seconds,SET_TIMER
+Start a countdown for fifteen seconds,SET_TIMER
+Set a countdown for twenty seconds,SET_TIMER
+Start a countdown for twenty seconds,SET_TIMER
+Set a countdown for thirty seconds,SET_TIMER
+Start a countdown for thirty seconds,SET_TIMER
+Give me a five second timer,SET_TIMER
+Give me a fifteen second timer,SET_TIMER
+Give me a twenty second timer,SET_TIMER
+Give me a thirty second timer,SET_TIMER
+I need a five second timer,SET_TIMER
+I need a fifteen second timer,SET_TIMER
+I need a twenty second timer,SET_TIMER
+I need a thirty second timer,SET_TIMER
+Can you set a timer for ten seconds,SET_TIMER
+Can you set a timer for fifteen seconds,SET_TIMER
+Can you set a timer for twenty seconds,SET_TIMER
+Can you set a timer for thirty seconds,SET_TIMER
+Could you set a timer for five seconds,SET_TIMER
+Could you set a timer for ten seconds,SET_TIMER
+Could you set a timer for fifteen seconds,SET_TIMER
+Could you set a timer for twenty seconds,SET_TIMER
+Please set a timer for five seconds,SET_TIMER
+Please set a timer for ten seconds,SET_TIMER
+Please set a timer for fifteen seconds,SET_TIMER
+Please set a timer for twenty seconds,SET_TIMER
+Start a five second timer for me,SET_TIMER
+Start a ten second timer for me,SET_TIMER
+Start a fifteen second timer for me,SET_TIMER
+Start a twenty second timer for me,SET_TIMER
+Set me a five second timer,SET_TIMER
+Set me a ten second timer,SET_TIMER
+Set me a fifteen second timer,SET_TIMER
+Set me a twenty second timer,SET_TIMER
+I want a five second timer,SET_TIMER
+I want a ten second timer,SET_TIMER
+I want a fifteen second timer,SET_TIMER
+I want a twenty second timer,SET_TIMER
+Can I have a five second timer,SET_TIMER
+Can I have a ten second timer,SET_TIMER
+Can I have a fifteen second timer,SET_TIMER
+Can I have a twenty second timer,SET_TIMER
+Start a short countdown,SET_TIMER
+Start a quick countdown,SET_TIMER
+Set a quick timer,SET_TIMER
+Set a short timer,SET_TIMER
+I need a quick timer,SET_TIMER
+I need a short timer,SET_TIMER
+Can you start a countdown,SET_TIMER
+Could you start a countdown,SET_TIMER
+Please start a countdown,SET_TIMER
+Please set a countdown,SET_TIMER
+Start the countdown,SET_TIMER
+Set the countdown,SET_TIMER
+Can you start a timer,SET_TIMER
+Could you start a timer,SET_TIMER
+Please start a timer,SET_TIMER
+Please set a timer,SET_TIMER
+Start the timer,SET_TIMER
+Set the timer,SET_TIMER
+I need to set a timer,SET_TIMER
+I want to set a timer,SET_TIMER
+I would like to set a timer,SET_TIMER
+I need to start a timer,SET_TIMER
+I want to start a timer,SET_TIMER
+I would like to start a timer,SET_TIMER
+Play some music,PLAY_MUSIC
+Play music,PLAY_MUSIC
+Start playing music,PLAY_MUSIC
+Put on some music,PLAY_MUSIC
+Play a random song,PLAY_MUSIC
+Start some music,PLAY_MUSIC
+Can you play some music,PLAY_MUSIC
+Play me a song,PLAY_MUSIC
+Play a song,PLAY_MUSIC
+Start the music,PLAY_MUSIC
+I want to listen to music,PLAY_MUSIC
+Can you start the music,PLAY_MUSIC
+Play something for me,PLAY_MUSIC
+Play something random,PLAY_MUSIC
+Play a random track,PLAY_MUSIC
+Start a random song,PLAY_MUSIC
+Start a random track,PLAY_MUSIC
+Choose a song and play it,PLAY_MUSIC
+Pick a song and play it,PLAY_MUSIC
+Pick something from my music,PLAY_MUSIC
+Choose something from my music,PLAY_MUSIC
+Play something from my music,PLAY_MUSIC
+Start something from my music,PLAY_MUSIC
+Can you play a song,PLAY_MUSIC
+Could you play a song,PLAY_MUSIC
+Please play a song,PLAY_MUSIC
+Can you play some music for me,PLAY_MUSIC
+Could you play some music for me,PLAY_MUSIC
+Please play some music for me,PLAY_MUSIC
+I want some music,PLAY_MUSIC
+I would like some music,PLAY_MUSIC
+Give me some music,PLAY_MUSIC
+I need some music,PLAY_MUSIC
+Put some music on,PLAY_MUSIC
+Put some music on for me,PLAY_MUSIC
+Turn on the music,PLAY_MUSIC
+Start the music for me,PLAY_MUSIC
+Begin playing music,PLAY_MUSIC
+Begin some music,PLAY_MUSIC
+Can you start some music,PLAY_MUSIC
+Could you start some music,PLAY_MUSIC
+Please start some music,PLAY_MUSIC
+Can you start playing music,PLAY_MUSIC
+Could you start playing music,PLAY_MUSIC
+Please start playing music,PLAY_MUSIC
+Play me something,PLAY_MUSIC
+Play me something random,PLAY_MUSIC
+Play me a random song,PLAY_MUSIC
+Play me a random track,PLAY_MUSIC
+I want to hear some music,PLAY_MUSIC
+I want to hear a song,PLAY_MUSIC
+I want to listen to a song,PLAY_MUSIC
+I would like to hear music,PLAY_MUSIC
+I would like to hear a song,PLAY_MUSIC
+Let me hear some music,PLAY_MUSIC
+Let me hear a song,PLAY_MUSIC
+Could you put on some music,PLAY_MUSIC
+Can you put on some music,PLAY_MUSIC
+Please put on some music,PLAY_MUSIC
+Could you put on a song,PLAY_MUSIC
+Can you put on a song,PLAY_MUSIC
+Please put on a song,PLAY_MUSIC
+Play something from the music folder,PLAY_MUSIC
+Choose something from the music folder,PLAY_MUSIC
+Pick something from the music folder,PLAY_MUSIC
+Start something from the music folder,PLAY_MUSIC
+Play a random file from the music folder,PLAY_MUSIC
+Pick a random song from the folder,PLAY_MUSIC
+Choose a random song from the folder,PLAY_MUSIC
+Start a random song from the folder,PLAY_MUSIC
+Play any song you like,PLAY_MUSIC
+Pick any song for me,PLAY_MUSIC
+Choose any music for me,PLAY_MUSIC
+Play whatever you want,PLAY_MUSIC
+Start whatever music you choose,PLAY_MUSIC
+Play something I can listen to,PLAY_MUSIC
+Give me something to listen to,PLAY_MUSIC
+Find something to play,PLAY_MUSIC
+Find some music to play,PLAY_MUSIC
+Can you find some music,PLAY_MUSIC
+Could you find some music,PLAY_MUSIC
+Please find some music,PLAY_MUSIC
+I feel like listening to music,PLAY_MUSIC
+I feel like hearing a song,PLAY_MUSIC
+I want to hear something,PLAY_MUSIC
+I need something to listen to,PLAY_MUSIC
+Start my music,PLAY_MUSIC
+Play my music,PLAY_MUSIC
+Open my music,PLAY_MUSIC
+Start a song for me,PLAY_MUSIC
+Play a track for me,PLAY_MUSIC
+Start a track for me,PLAY_MUSIC
+Put on a track,PLAY_MUSIC
+Start a track,PLAY_MUSIC
+Play something from my collection,PLAY_MUSIC
+Play something from my songs,PLAY_MUSIC
+Start one of my songs,PLAY_MUSIC
+Choose one of my songs,PLAY_MUSIC
+Pick one of my songs,PLAY_MUSIC
+Whats the weather like,GET_WEATHER
+Tell me the weather,GET_WEATHER
+Whats the weather today,GET_WEATHER
+Hows the weather,GET_WEATHER
+What is the weather right now,GET_WEATHER
+Can you tell me the weather,GET_WEATHER
+Is it raining outside,GET_WEATHER
+Is it sunny today,GET_WEATHER
+Whats the temperature outside,GET_WEATHER
+How hot is it outside,GET_WEATHER
+How cold is it outside,GET_WEATHER
+Tell me about the weather,GET_WEATHER
+What is the weather forecast,GET_WEATHER
+Can you check the weather,GET_WEATHER
+Could you check the weather,GET_WEATHER
+Please check the weather,GET_WEATHER
+What is the forecast today,GET_WEATHER
+Whats the forecast today,GET_WEATHER
+Will it rain today,GET_WEATHER
+Is rain expected today,GET_WEATHER
+Should I expect rain,GET_WEATHER
+Should I bring an umbrella,GET_WEATHER
+Do I need an umbrella,GET_WEATHER
+Will I need an umbrella today,GET_WEATHER
+Is it going to rain,GET_WEATHER
+Is there rain outside,GET_WEATHER
+Is it raining right now,GET_WEATHER
+Is it sunny outside,GET_WEATHER
+Is the sun out today,GET_WEATHER
+Is it cloudy today,GET_WEATHER
+Is it cloudy outside,GET_WEATHER
+Are there clouds outside,GET_WEATHER
+What is the temperature,GET_WEATHER
+What temperature is it outside,GET_WEATHER
+How warm is it outside,GET_WEATHER
+How cool is it outside,GET_WEATHER
+Is it hot outside,GET_WEATHER
+Is it cold outside,GET_WEATHER
+How hot is it today,GET_WEATHER
+How cold is it today,GET_WEATHER
+Tell me the temperature,GET_WEATHER
+Give me the temperature,GET_WEATHER
+Can you tell me the temperature,GET_WEATHER
+Could you tell me the temperature,GET_WEATHER
+Please tell me the temperature,GET_WEATHER
+What are the weather conditions,GET_WEATHER
+How are the weather conditions,GET_WEATHER
+Tell me the current weather,GET_WEATHER
+Give me the current weather,GET_WEATHER
+What is the current weather,GET_WEATHER
+Can you give me the current weather,GET_WEATHER
+Could you give me the current weather,GET_WEATHER
+Please give me the current weather,GET_WEATHER
+What is happening outside,GET_WEATHER
+How is it outside,GET_WEATHER
+What is it like outside,GET_WEATHER
+Can you tell me how it is outside,GET_WEATHER
+Could you tell me how it is outside,GET_WEATHER
+Tell me how it is outside,GET_WEATHER
+What should I expect outside,GET_WEATHER
+What should I expect from the weather,GET_WEATHER
+Can you tell me what to expect outside,GET_WEATHER
+Will the weather be good today,GET_WEATHER
+How will the weather be today,GET_WEATHER
+What will the weather be like today,GET_WEATHER
+What will the weather be like,GET_WEATHER
+Can you tell me what the weather will be like,GET_WEATHER
+Could you tell me what the weather will be like,GET_WEATHER
+What is the forecast right now,GET_WEATHER
+What does the forecast say,GET_WEATHER
+Can you check todays forecast,GET_WEATHER
+Could you check todays forecast,GET_WEATHER
+Please check todays forecast,GET_WEATHER
+Is there a chance of rain,GET_WEATHER
+What are the chances of rain,GET_WEATHER
+How likely is rain,GET_WEATHER
+Is rain likely today,GET_WEATHER
+Will there be rain,GET_WEATHER
+Will there be sunshine,GET_WEATHER
+Will it be sunny today,GET_WEATHER
+Will it be cloudy today,GET_WEATHER
+Will it be hot today,GET_WEATHER
+Will it be cold today,GET_WEATHER
+How warm will it be today,GET_WEATHER
+How cold will it be tomorrow,GET_WEATHER
+What is the temperature right now,GET_WEATHER
+Can you tell me the temperature right now,GET_WEATHER
+Could you tell me the temperature right now,GET_WEATHER
+Please tell me the temperature right now,GET_WEATHER
+Tell me about conditions outside,GET_WEATHER
+What are conditions like outside,GET_WEATHER
+Can you tell me about conditions outside,GET_WEATHER
+Could you tell me about conditions outside,GET_WEATHER
+Give me the weather forecast,GET_WEATHER
+I want to know the weather,GET_WEATHER
+I need to know the weather,GET_WEATHER
+I want the current weather,GET_WEATHER
+I need the current weather,GET_WEATHER
+Tell me what the weather is like outside,GET_WEATHER
+Tell me what the weather is like today,GET_WEATHER
+I wonder what the weather is like,GET_WEATHER
+I am wondering about the weather,GET_WEATHER
+Give me a reminder,SET_REMINDER
+Set a reminder for me,SET_REMINDER
+Remind me to take a break,SET_REMINDER
+Remind me to drink some water,SET_REMINDER
+I need a reminder,SET_REMINDER
+Can you remind me about something,SET_REMINDER
+Give me a random reminder,SET_REMINDER
+Remind me to stay focused,SET_REMINDER
+I need a quick reminder,SET_REMINDER
+Set a reminder,SET_REMINDER
+Please give me a reminder,SET_REMINDER
+Remind me to keep going,SET_REMINDER
+Can you set a reminder,SET_REMINDER
+Could you set a reminder,SET_REMINDER
+Please set a reminder,SET_REMINDER
+I want a reminder,SET_REMINDER
+I would like a reminder,SET_REMINDER
+I need some reminder,SET_REMINDER
+Give me something to remember,SET_REMINDER
+Tell me something to remember,SET_REMINDER
+Tell me a useful reminder,SET_REMINDER
+Give me a useful reminder,SET_REMINDER
+I need a useful reminder,SET_REMINDER
+Can you give me a useful reminder,SET_REMINDER
+Could you give me a useful reminder,SET_REMINDER
+Please give me a useful reminder,SET_REMINDER
+Give me something useful to remember,SET_REMINDER
+Tell me something useful to remember,SET_REMINDER
+I need something useful to remember,SET_REMINDER
+Remind me about something,SET_REMINDER
+Can you remind me,SET_REMINDER
+Could you remind me,SET_REMINDER
+Please remind me,SET_REMINDER
+Remind me about this,SET_REMINDER
+Remind me about that,SET_REMINDER
+I need you to remind me,SET_REMINDER
+I want you to remind me,SET_REMINDER
+I would like you to remind me,SET_REMINDER
+Can you help me remember,SET_REMINDER
+Could you help me remember,SET_REMINDER
+Please help me remember,SET_REMINDER
+Remind me to take some time off,SET_REMINDER
+Remind me to take a break,SET_REMINDER
+Remind me to rest,SET_REMINDER
+Remind me to stay focused,SET_REMINDER
+Remind me to keep going,SET_REMINDER
+Remind me to stay consistent,SET_REMINDER
+Remind me to keep learning,SET_REMINDER
+Remind me to drink water,SET_REMINDER
+Remind me to take care of myself,SET_REMINDER
+Remind me to slow down,SET_REMINDER
+Remind me to be patient,SET_REMINDER
+Remind me to keep moving forward,SET_REMINDER
+Remind me to focus on my work,SET_REMINDER
+Remind me to finish my task,SET_REMINDER
+Remind me to take a short break,SET_REMINDER
+Remind me to breathe,SET_REMINDER
+Remind me to stay calm,SET_REMINDER
+Remind me to keep trying,SET_REMINDER
+Remind me not to give up,SET_REMINDER
+Remind me to stay positive,SET_REMINDER
+I could use a reminder,SET_REMINDER
+I could use some reminding,SET_REMINDER
+I need something to remind me,SET_REMINDER
+I want something to remind me,SET_REMINDER
+I would like something to remind me,SET_REMINDER
+Can you give me something to remember,SET_REMINDER
+Could you give me something to remember,SET_REMINDER
+Please give me something to remember,SET_REMINDER
+Give me a quick reminder,SET_REMINDER
+Give me a short reminder,SET_REMINDER
+I need a quick reminder,SET_REMINDER
+I need a short reminder,SET_REMINDER
+Can you give me a quick reminder,SET_REMINDER
+Could you give me a quick reminder,SET_REMINDER
+Please give me a quick reminder,SET_REMINDER
+Give me a random reminder message,SET_REMINDER
+Tell me a random reminder message,SET_REMINDER
+Give me a reminder message,SET_REMINDER
+Tell me a reminder message,SET_REMINDER
+I need a reminder message,SET_REMINDER
+Can you give me a reminder message,SET_REMINDER
+Could you give me a reminder message,SET_REMINDER
+Please give me a reminder message,SET_REMINDER
+Say something that reminds me to stay focused,SET_REMINDER
+Say something that reminds me to keep going,SET_REMINDER
+Say something that reminds me to take a break,SET_REMINDER
+Say something that reminds me to stay positive,SET_REMINDER
+Give me some useful advice to remember,SET_REMINDER
+Tell me something I should remember,SET_REMINDER
+Tell me something useful I should remember,SET_REMINDER
+Tell me a joke,TELL_JOKE
+Make me laugh,TELL_JOKE
+Tell me something funny,TELL_JOKE
+Can you tell me a joke,TELL_JOKE
+Give me a funny joke,TELL_JOKE
+I want to hear a joke,TELL_JOKE
+Do you know any jokes,TELL_JOKE
+Say something funny,TELL_JOKE
+Give me something funny,TELL_JOKE
+Tell me a random joke,TELL_JOKE
+Can you make me laugh,TELL_JOKE
+I need a joke,TELL_JOKE
+Tell me something amusing,TELL_JOKE
+Give me something amusing,TELL_JOKE
+Say something amusing,TELL_JOKE
+Can you say something funny,TELL_JOKE
+Could you tell me something funny,TELL_JOKE
+Please tell me something funny,TELL_JOKE
+Could you make me laugh,TELL_JOKE
+Please make me laugh,TELL_JOKE
+I want something funny,TELL_JOKE
+I want something amusing,TELL_JOKE
+I need something funny,TELL_JOKE
+I need something amusing,TELL_JOKE
+Give me a laugh,TELL_JOKE
+I could use a laugh,TELL_JOKE
+I could use something funny,TELL_JOKE
+I could use something amusing,TELL_JOKE
+Tell me something that will make me laugh,TELL_JOKE
+Tell me something that will make me smile,TELL_JOKE
+Give me something that will make me laugh,TELL_JOKE
+Give me something that will make me smile,TELL_JOKE
+Can you make me smile,TELL_JOKE
+Could you make me smile,TELL_JOKE
+Please make me smile,TELL_JOKE
+Entertain me,TELL_JOKE
+Entertain me with a joke,TELL_JOKE
+Entertain me with something funny,TELL_JOKE
+Tell me a funny story,TELL_JOKE
+Tell me something humorous,TELL_JOKE
+Give me something humorous,TELL_JOKE
+Say something humorous,TELL_JOKE
+Do you know a funny joke,TELL_JOKE
+Do you know any funny jokes,TELL_JOKE
+Do you have a joke,TELL_JOKE
+Do you have any jokes,TELL_JOKE
+Do you have something funny,TELL_JOKE
+Do you have something amusing,TELL_JOKE
+Can you give me a joke,TELL_JOKE
+Could you give me a joke,TELL_JOKE
+Please give me a joke,TELL_JOKE
+Can you give me something funny,TELL_JOKE
+Could you give me something funny,TELL_JOKE
+Please give me something funny,TELL_JOKE
+Can you give me a funny story,TELL_JOKE
+Could you give me a funny story,TELL_JOKE
+Please give me a funny story,TELL_JOKE
+I want a joke,TELL_JOKE
+I would like a joke,TELL_JOKE
+I would like to hear a joke,TELL_JOKE
+I would like to hear something funny,TELL_JOKE
+I want to hear something funny,TELL_JOKE
+I want to hear something amusing,TELL_JOKE
+I would like something funny,TELL_JOKE
+I would like something amusing,TELL_JOKE
+Tell me a good joke,TELL_JOKE
+Tell me a random funny joke,TELL_JOKE
+Give me a random funny joke,TELL_JOKE
+Give me a random amusing joke,TELL_JOKE
+Tell me a silly joke,TELL_JOKE
+Give me a silly joke,TELL_JOKE
+Tell me a clever joke,TELL_JOKE
+Give me a clever joke,TELL_JOKE
+Tell me a short joke,TELL_JOKE
+Give me a short joke,TELL_JOKE
+Tell me a quick joke,TELL_JOKE
+Give me a quick joke,TELL_JOKE
+I need a laugh,TELL_JOKE
+I want a laugh,TELL_JOKE
+Make me laugh please,TELL_JOKE
+Can you make me laugh please,TELL_JOKE
+Could you make me laugh please,TELL_JOKE
+Please make me laugh,TELL_JOKE
+Say something to make me laugh,TELL_JOKE
+Tell me something to make me laugh,TELL_JOKE
+Give me something to make me laugh,TELL_JOKE
+I need cheering up,TELL_JOKE
+Cheer me up with a joke,TELL_JOKE
+Give me a joke to cheer me up,TELL_JOKE
+Tell me a joke to cheer me up,TELL_JOKE
+Hit me with a joke,TELL_JOKE
+Hit me with something funny,TELL_JOKE
+Give me your funniest joke,TELL_JOKE
+Tell me your funniest joke,TELL_JOKE
+What jokes do you know,TELL_JOKE
+Do you know any funny stories,TELL_JOKE
+Give me some motivation,MOTIVATION
+Motivate me,MOTIVATION
+I need some motivation,MOTIVATION
+Give me a motivational quote,MOTIVATION
+Say something motivating,MOTIVATION
+Tell me something inspiring,MOTIVATION
+I need some encouragement,MOTIVATION
+Give me an inspiring sentence,MOTIVATION
+Can you motivate me,MOTIVATION
+Tell me something positive,MOTIVATION
+Give me a motivational message,MOTIVATION
+I could use some motivation,MOTIVATION
+Give me some encouragement,MOTIVATION
+Encourage me,MOTIVATION
+I need encouragement,MOTIVATION
+I need some encouragement today,MOTIVATION
+Help me stay motivated,MOTIVATION
+Help me keep going,MOTIVATION
+Help me stay focused,MOTIVATION
+Give me a reason to keep going,MOTIVATION
+Give me something to keep me going,MOTIVATION
+Tell me something to keep me going,MOTIVATION
+Say something to keep me going,MOTIVATION
+I need something to push me forward,MOTIVATION
+I need something to motivate me,MOTIVATION
+I want something motivating,MOTIVATION
+I want some motivation,MOTIVATION
+I would like some motivation,MOTIVATION
+I would like some encouragement,MOTIVATION
+I would like something inspiring,MOTIVATION
+Give me something inspiring,MOTIVATION
+Say something inspiring,MOTIVATION
+Tell me something inspiring please,MOTIVATION
+Give me an inspiring message,MOTIVATION
+Give me a positive message,MOTIVATION
+Tell me a positive message,MOTIVATION
+Say something positive,MOTIVATION
+Give me something positive,MOTIVATION
+Tell me something uplifting,MOTIVATION
+Say something uplifting,MOTIVATION
+Give me an uplifting message,MOTIVATION
+Tell me something encouraging,MOTIVATION
+Say something encouraging,MOTIVATION
+Give me an encouraging message,MOTIVATION
+Can you encourage me,MOTIVATION
+Could you encourage me,MOTIVATION
+Please encourage me,MOTIVATION
+Can you motivate me please,MOTIVATION
+Could you motivate me,MOTIVATION
+Please motivate me,MOTIVATION
+I need a motivational message,MOTIVATION
+I need a motivational quote,MOTIVATION
+I want a motivational quote,MOTIVATION
+I would like a motivational quote,MOTIVATION
+Give me a motivational sentence,MOTIVATION
+Tell me a motivational sentence,MOTIVATION
+Say a motivational sentence,MOTIVATION
+Give me some positive words,MOTIVATION
+Tell me some positive words,MOTIVATION
+Say some positive words,MOTIVATION
+I need some positive words,MOTIVATION
+I need something positive,MOTIVATION
+I could use something positive,MOTIVATION
+I could use some encouragement,MOTIVATION
+I could use some inspiration,MOTIVATION
+I need some inspiration,MOTIVATION
+Give me some inspiration,MOTIVATION
+Tell me something that inspires me,MOTIVATION
+Say something that inspires me,MOTIVATION
+Give me something that inspires me,MOTIVATION
+Help me feel motivated,MOTIVATION
+Help me feel positive,MOTIVATION
+Help me feel encouraged,MOTIVATION
+Help me stay positive,MOTIVATION
+Help me stay strong,MOTIVATION
+Give me strength,MOTIVATION
+Give me a boost,MOTIVATION
+Give me a little boost,MOTIVATION
+I need a boost,MOTIVATION
+I need a little boost,MOTIVATION
+Give me something to cheer me up,MOTIVATION
+Tell me something to cheer me up,MOTIVATION
+Say something to cheer me up,MOTIVATION
+I need cheering up,MOTIVATION
+I need some positive energy,MOTIVATION
+Give me some positive energy,MOTIVATION
+Send me some motivation,MOTIVATION
+Send me some encouragement,MOTIVATION
+Give me a reason to continue,MOTIVATION
+Tell me to keep going,MOTIVATION
+Tell me not to give up,MOTIVATION
+Remind me not to give up,MOTIVATION
+Help me not to give up,MOTIVATION
+I do not want to give up,MOTIVATION
+I want to keep going,MOTIVATION
+I want to stay motivated,MOTIVATION
+I need to stay motivated,MOTIVATION
+Say something that will keep me going,MOTIVATION
+Give me something that will keep me going,MOTIVATION
