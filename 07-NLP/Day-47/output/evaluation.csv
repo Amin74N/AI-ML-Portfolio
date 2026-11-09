@@ -1,0 +1,9 @@
+audio,expected_intent,text,cleaned_text,predicted_intent,confidence,correct
+audio\cancel_order.wav,CANCEL_ORDER,I don't want my order anymore.,i dont want my order anymore,CANCEL_ORDER,0.8239136338233948,True
+audio\complaint.wav,COMPLAINT,Something went wrong with my order.,something went wrong with my order,COMPLAINT,0.6103292107582092,True
+audio\goodbye.wav,GOODBYE,Thanks. Goodbye.,thanks goodbye,GOODBYE,0.9778550863265991,True
+audio\greeting.wav,GREETING,"Hi, how are you?",hi how are you,GREETING,0.9000676870346069,True
+audio\order_status.wav,ORDER_STATUS,Where is my order?,where is my order,ORDER_STATUS,0.6838544607162476,True
+audio\other.wav,OTHER,Tell me about artificial intelligence.,tell me about artificial intelligence,OTHER,0.6560875177383423,True
+audio\payment.wav,PAYMENT,Can I pay with credit card?,can i pay with credit card,PAYMENT,0.9938718676567078,True
+audio\product_info.wav,PRODUCT_INFO,Can you give me more information?,can you give me more information,NOT_RECOGNIZED,0.40317007899284363,False

@@ -1,0 +1,81 @@
+text,intent
+Hello,GREETING
+Hi there,GREETING
+Hey,GREETING
+Good morning,GREETING
+Good afternoon,GREETING
+"Hi, how are you?",GREETING
+"Hello, I need some help",GREETING
+Hey there,GREETING
+Good evening,GREETING
+Hi,GREETING
+Where is my order?,ORDER_STATUS
+Can you tell me where my order is?,ORDER_STATUS
+I want to check my order status,ORDER_STATUS
+Has my order been shipped?,ORDER_STATUS
+When will my order arrive?,ORDER_STATUS
+Can I track my order?,ORDER_STATUS
+What is the status of my order?,ORDER_STATUS
+Where is my package?,ORDER_STATUS
+Is my order on the way?,ORDER_STATUS
+I want to track my package,ORDER_STATUS
+I want to cancel my order,CANCEL_ORDER
+Please cancel my order,CANCEL_ORDER
+Can I cancel my order?,CANCEL_ORDER
+I need to cancel an order,CANCEL_ORDER
+How can I cancel my order?,CANCEL_ORDER
+I don't want my order anymore,CANCEL_ORDER
+Please stop my order,CANCEL_ORDER
+Can you cancel the purchase?,CANCEL_ORDER
+I changed my mind and want to cancel,CANCEL_ORDER
+Cancel my order please,CANCEL_ORDER
+I have a complaint,COMPLAINT
+I am not happy with your service,COMPLAINT
+Your service is terrible,COMPLAINT
+I want to report a problem,COMPLAINT
+I am very disappointed,COMPLAINT
+I have an issue with my order,COMPLAINT
+This service is unacceptable,COMPLAINT
+I want to complain,COMPLAINT
+I am unhappy with my experience,COMPLAINT
+Something went wrong with my order,COMPLAINT
+Can you tell me more about this product?,PRODUCT_INFO
+What are the product details?,PRODUCT_INFO
+I need information about this product,PRODUCT_INFO
+What features does this product have?,PRODUCT_INFO
+What are the specifications?,PRODUCT_INFO
+Can you give me more information?,PRODUCT_INFO
+Tell me about this product,PRODUCT_INFO
+What does this product do?,PRODUCT_INFO
+I want to know more about the product,PRODUCT_INFO
+What are the product features?,PRODUCT_INFO
+How can I pay?,PAYMENT
+What payment methods do you accept?,PAYMENT
+Can I pay by credit card?,PAYMENT
+Do you accept PayPal?,PAYMENT
+How do I make a payment?,PAYMENT
+Where can I pay for my order?,PAYMENT
+What payment options are available?,PAYMENT
+Can I pay with a debit card?,PAYMENT
+My payment is not working,PAYMENT
+I have a problem with my payment,PAYMENT
+Goodbye,GOODBYE
+Bye,GOODBYE
+See you later,GOODBYE
+Talk to you later,GOODBYE
+Have a nice day,GOODBYE
+"Thanks, goodbye",GOODBYE
+Bye for now,GOODBYE
+I have to go,GOODBYE
+See you,GOODBYE
+Have a good day,GOODBYE
+What is the weather today?,OTHER
+Who won the football match?,OTHER
+Tell me a joke,OTHER
+What time is it?,OTHER
+How old are you?,OTHER
+What is the capital of France?,OTHER
+Can you recommend a movie?,OTHER
+What is Python?,OTHER
+Tell me about artificial intelligence,OTHER
+How do I cook pasta?,OTHER
