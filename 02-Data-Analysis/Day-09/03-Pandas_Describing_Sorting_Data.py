@@ -1,0 +1,17 @@
+import pandas as pd
+df = pd.read_csv('pokemon_data.csv')
+#------------------------------------------------------------------------------------
+print ("Describing Data:")
+print (df.describe())
+print ("-----------------------------------------------------------------------------")
+print ("Giving Information About Dataset:")
+print (df.info())
+print ("-----------------------------------------------------------------------------")
+print ("Sorting Data Alphabetically:")
+print (df.sort_values(by=['Name']))
+print ("-----------------------------------------------------------------------------")
+print ("Sorting Data Descending:")
+print (df.sort_values(by=['Name'], ascending=False))
+print ("-----------------------------------------------------------------------------")
+print ("Sorting Data Based On Two Columns By Different Orders:")
+print (df.sort_values(by=['Type 1','HP'], ascending=[1,0]))
