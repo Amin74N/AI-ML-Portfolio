@@ -1,0 +1,55 @@
+import pandas as pd
+pd.set_option('display.max_columns', None)
+df = pd.read_excel('Customer_Call_List.xlsx')
+print ("Dataset:\n",df)
+print ("------------------------------------------------------------------------------")
+a = df.isnull()
+print ("Finding missing data:\n",a)
+print ("------------------------------------------------------------------------------")
+b = df.isnull().sum()
+print ("Calculating the number of missing data:\n",b)
+print ("------------------------------------------------------------------------------")
+df = df.drop_duplicates()
+print ("Dropping duplicate data:\n",df)
+print ("------------------------------------------------------------------------------")
+df = df.drop(columns = "Not_Useful_Column")
+print ("Dropping unuseful data:\n",df)
+print ("------------------------------------------------------------------------------")
+df ["Last_Name"]= df["Last_Name"].str.strip("123._/")
+print ("Fixing wrong last names:\n",df)
+print ("------------------------------------------------------------------------------")
+df["Phone_Number"] = df["Phone_Number"].str.replace('[^a-zA-Z0-9]', '', regex=True)
+df["Phone_Number"] = df["Phone_Number"].apply(lambda x: str(x))
+df["Phone_Number"] = df["Phone_Number"].apply(lambda x: x[0:3] + '-' + x[3:6] + '-' + x[6:10])
+df["Phone_Number"] = df["Phone_Number"].str.replace('nan--', '', regex=True)
+df["Phone_Number"] = df["Phone_Number"].str.replace('Na--', '', regex=True)
+print ("Dealing with wrong numbers:\n",df["Phone_Number"])
+print ("------------------------------------------------------------------------------")
+df[["Street_Address", "State", "Zip_Code"]] = df["Address"].str.split(',', n=2, expand=True)
+print ("Separating address column into 3 columns:\n",df[["Street_Address", "State", "Zip_Code","Address"]])
+df = df.drop(columns=['Address'])
+print ("------------------------------------------------------------------------------")
+df["Paying Customer"] = df["Paying Customer"].str.replace('Yes', 'Y', regex=True)
+df["Paying Customer"] = df["Paying Customer"].str.replace('No', 'N', regex=True)
+df["Do_Not_Contact"] = df["Do_Not_Contact"].str.replace('Yes', 'Y', regex=True)
+df["Do_Not_Contact"] = df["Do_Not_Contact"].str.replace('No', 'N', regex=True)
+print ("Dealing with Yes/No columns:\n",df[["Paying Customer", "Do_Not_Contact"]])
+print ("------------------------------------------------------------------------------")
+df = df.fillna('')
+print ("Dealing with empty cells (N/A or NaN values):\n",df)
+print ("------------------------------------------------------------------------------")
+#Dropping Do_Not_Contact = 'Y':
+for x in df.index:
+    if df.loc[x, "Do_Not_Contact"] == 'Y':
+        df = df.drop(x)
+#Dropping Phone_Number = '':
+for x in df.index:
+    if df.loc[x, "Phone_Number"] == '':
+        df = df.drop(x)
+#It can also be written like:
+#df = df.dropna(subset=["Phone_Number"], inplace=True)
+#Resetting index:
+df = df.reset_index(drop = True)
+print ("Determining the customers who must be called:\n",df)
+# Dropping rows with Phone_Number = ' ' or Do_Not_Contact = 'Y'
+df.to_excel('Clean_Customer_Call_List.xlsx', index=False)
