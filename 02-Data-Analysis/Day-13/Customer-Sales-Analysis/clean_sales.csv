@@ -1,0 +1,6 @@
+customer,age,city,product,category,price,quantity,rating
+Ali,25.0,Tehran,Laptop,Digital,1200,1,5
+Sara,30.0,Shiraz,Phone,Digital,800,2,4
+Reza,29.6,Tehran,Tablet,Digital,500,1,3
+Mina,28.0,Unknown,Laptop,Digital,1200,1,5
+Nima,40.0,Tabriz,Monitor,Digital,300,3,4
