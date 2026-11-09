@@ -1,0 +1,10 @@
+BERT Tokenization:
+
+Text: I love machine learning.
+Tokens: ['[CLS]', 'i', 'love', 'machine', 'learning', '.', '[SEP]']
+Input IDs: [101, 1045, 2293, 3698, 4083, 1012, 102]
+Attention Mask: [1, 1, 1, 1, 1, 1, 1]
+
+BERT Output:
+
+Last Hidden State Shape: torch.Size([1, 7, 768]) => ([Batch, Sequence Length, Hidden Size])
