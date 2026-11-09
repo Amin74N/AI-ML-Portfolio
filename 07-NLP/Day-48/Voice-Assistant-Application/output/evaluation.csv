@@ -1,0 +1,27 @@
+command,text,cleaned_text,intent,confidence,response,recognized
+1,Hi.,hi,GREETING,0.974844753742218,Hello! How can I help you?,True
+2,What time is it?,what time is it,GET_TIME,0.984586238861084,The current time is 23:14:26.,True
+3,Tell me today's date.,tell me todays date,GET_DATE,0.9050652980804443,Today's date is 2026-08-18.,True
+4,Tell me a joke.,tell me a joke,JOKE,0.9925233721733093,Why did the programmer quit his job? Because he didn't get arrays!,True
+5,Play some music.,play some music,NOT_RECOGNIZED,0.7660982012748718,"I'm sorry, I didn't understand that. Please try again.",False
+6,Hey there!,hey there,GREETING,0.9054292440414429,Hello! How can I help you?,True
+7,Tell me the time.,tell me the time,GET_TIME,0.9673947691917419,The current time is 23:18:55.,True
+8,What date is it?,what date is it,GET_DATE,0.9665615558624268,Today's date is 2026-08-18.,True
+9,Make me laugh.,make me laugh,JOKE,0.9906091690063477,Why was the Python programmer confused? Because he couldn't C!,True
+10,Open Google,open google,NOT_RECOGNIZED,0.6831973791122437,"I'm sorry, I didn't understand that. Please try again.",False
+11,"Hello, assistant.",hello assistant,GREETING,0.9538564085960388,Hello! How can I help you?,True
+12,Give me the current time.,give me the current time,GET_TIME,0.9344882965087891,The current time is 23:23:15.,True
+13,What day is it today?,what day is it today,GET_DATE,0.978172779083252,Today's date is 2026-08-18.,True
+14,Say something funny.,say something funny,JOKE,0.978123128414154,Why was the Python programmer confused? Because he couldn't C!,True
+15,What is the weather?,what is the weather,NOT_RECOGNIZED,0.6081129312515259,"I'm sorry, I didn't understand that. Please try again.",False
+16,Good morning.,good morning,GREETING,0.9896554946899414,Hello! How can I help you?,True
+17,What's the time?,whats the time,GET_TIME,0.9559163451194763,The current time is 23:27:29.,True
+18,Tell me the current date.,tell me the current date,NOT_RECOGNIZED,0.7434807419776917,"I'm sorry, I didn't understand that. Please try again.",False
+19,Do you know any jokes?,do you know any jokes,JOKE,0.9796669483184814,Why did the programmer quit his job? Because he didn't get arrays!,True
+20,Tell me about Python.,tell me about python,NOT_RECOGNIZED,0.3963264524936676,"I'm sorry, I didn't understand that. Please try again.",False
+21,good evening,good evening,GREETING,0.9743781685829163,Hello! How can I help you?,True
+22,What time do we have?,what time do we have,GET_TIME,0.8878476023674011,The current time is 23:31:51.,True
+23,What date are we on?,what date are we on,GET_DATE,0.9428068995475769,Today's date is 2026-08-18.,True
+24,Give me something to laugh about.,give me something to laugh about,JOKE,0.9755271673202515,Why do programmers prefer dark mode? Because light attracts bugs!,True
+25,Who is Elon Musk?,who is elon musk,NOT_RECOGNIZED,0.7127147316932678,"I'm sorry, I didn't understand that. Please try again.",False
+26,See you soon.,see you soon,GOODBYE,0.8092248439788818,Goodbye!,True
