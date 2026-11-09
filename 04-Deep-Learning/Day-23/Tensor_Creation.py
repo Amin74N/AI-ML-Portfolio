@@ -1,0 +1,23 @@
+import torch
+def main():
+    print("Scalar:")
+    x = torch.tensor(123)
+    print(x)
+    print("Dimensions:", x.ndim, "D Tensor")
+    print("--------------------------------------------------------------------------------")
+    print("Vector:")
+    x = torch.tensor([1,2,3])
+    print(x)
+    print("Dimensions:", x.ndim, "D Tensor")
+    print("--------------------------------------------------------------------------------")
+    print("Matrix:")
+    x = torch.tensor([[1,2,3],[1,2,3]])
+    print(x)
+    print("Dimensions:", x.ndim, "D Tensor")
+    print("--------------------------------------------------------------------------------")
+    print("Stack of Matrices:")
+    x = torch.tensor([[[1,2,3],[1,2,3],[1,2,3]],[[1,2,3],[1,2,3],[1,2,3]],[[1,2,3],[1,2,3],[1,2,3]]])
+    print(x)
+    print("Dimensions:", x.ndim, "D Tensor")
+if __name__ == "__main__":
+    main()
